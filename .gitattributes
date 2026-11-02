@@ -1,0 +1,5 @@
+* text=auto
+
+# Skrypty Windows zachowują końce linii CRLF także po sklonowaniu.
+*.cmd text eol=crlf
+*.ps1 text eol=crlf

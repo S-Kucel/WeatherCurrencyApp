@@ -1,0 +1,66 @@
+.root { -fx-font-family: "Segoe UI"; -fx-font-size: 13px; -fx-text-fill: #243746; -fx-accent: #158f87; -fx-focus-color: #158f87; -fx-faint-focus-color: #158f8718; }
+.app-root, .page-scroll, .page-scroll > .viewport { -fx-background-color: #f3f6f7; }
+.sidebar { -fx-background-color: #142d36; }
+.brand-mark { -fx-background-color: #24636a; -fx-background-radius: 12; -fx-padding: 12 16; -fx-text-fill: #edfffa; -fx-font-size: 20; -fx-font-weight: bold; }
+.brand { -fx-text-fill: #f2f7fa; -fx-font-size: 18; -fx-font-weight: bold; -fx-line-spacing: 4; }
+.sidebar-muted { -fx-text-fill: #99b6bd; -fx-font-size: 11; }
+.sidebar-caption { -fx-text-fill: #789ea8; -fx-font-size: 10; -fx-font-weight: bold; }
+.sidebar .separator { -fx-padding: 16 0; }
+.sidebar .separator .line { -fx-border-color: #2d4852; -fx-border-width: 1 0 0 0; }
+.sidebar .hyperlink { -fx-text-fill: #aac4cc; -fx-font-size: 11; -fx-padding: 3 0; -fx-border-width: 0; }
+.sidebar .hyperlink:hover { -fx-text-fill: white; }
+.nav-button { -fx-background-color: transparent; -fx-text-fill: #abc5cc; -fx-alignment: center-left; -fx-padding: 14 18; -fx-background-radius: 9; -fx-cursor: hand; -fx-font-size: 14; }
+.nav-button:hover { -fx-background-color: #213f49; }
+.nav-button:selected { -fx-background-color: #25545b; -fx-text-fill: #e9fff9; -fx-font-weight: bold; }
+.eyebrow { -fx-text-fill: #548582; -fx-font-size: 10; -fx-font-weight: bold; }
+.page-title { -fx-font-size: 23; -fx-font-weight: bold; -fx-text-fill: #17343e; }
+.muted, .status { -fx-text-fill: #6c8089; -fx-font-size: 12; }
+.status { -fx-font-size: 11; }
+.card { -fx-background-color: white; -fx-background-radius: 12; -fx-border-color: #e3eaed; -fx-border-radius: 12; -fx-border-width: 1; }
+.section-title { -fx-font-size: 15; -fx-font-weight: bold; -fx-text-fill: #203c47; }
+.button { -fx-cursor: hand; }
+.primary-button { -fx-background-color: #157f79; -fx-background-radius: 7; -fx-text-fill: white; -fx-padding: 11 20; -fx-font-weight: bold; }
+.primary-button:hover { -fx-background-color: #106d68; }
+.secondary-button { -fx-background-color: white; -fx-background-radius: 7; -fx-border-color: #d4e2e5; -fx-border-radius: 7; -fx-text-fill: #325c67; -fx-padding: 10 15; -fx-font-size: 11; }
+.secondary-button:hover { -fx-background-color: #e7f1f1; }
+.text-field { -fx-background-color: #f8fafb; -fx-border-color: #dce5e9; -fx-border-radius: 7; -fx-background-radius: 7; -fx-padding: 10 12; -fx-prompt-text-fill: #9cabb2; }
+.text-field:focused { -fx-border-color: #2d9a91; }
+.combo-box { -fx-background-color: #f8fafb; -fx-border-color: #dce5e9; -fx-border-radius: 7; -fx-background-radius: 7; -fx-padding: 5; }
+.combo-box .list-cell { -fx-text-fill: #294954; -fx-font-size: 12; }
+.combo-box-popup .list-cell { -fx-padding: 10; }
+.combo-box-popup .list-cell:hover, .combo-box-popup .list-cell:selected { -fx-background-color: #e1f2ef; -fx-text-fill: #24564e; }
+.weather-hero { -fx-background-color: linear-gradient(to right, #176c72, #1b9290); -fx-background-radius: 14; }
+.hero-location { -fx-font-size: 30; -fx-font-weight: bold; -fx-text-fill: white; }
+.hero-temperature { -fx-font-size: 64; -fx-font-weight: bold; -fx-text-fill: white; }
+.hero-detail { -fx-text-fill: #cef0ec; -fx-font-size: 13; }
+.metric-value { -fx-font-size: 24; -fx-font-weight: bold; -fx-text-fill: #203f4a; }
+.day-card { -fx-background-color: white; -fx-background-radius: 11; -fx-padding: 14 3; -fx-border-color: #e3eaed; -fx-border-radius: 11; }
+.day-title { -fx-text-fill: #35545f; -fx-font-size: 12; -fx-font-weight: bold; }
+.day-temperature { -fx-text-fill: #244b55; -fx-font-size: 13; -fx-font-weight: bold; }
+.day-rain { -fx-text-fill: #66939b; -fx-font-size: 10; }
+.source-note { -fx-text-fill: #8a9ba3; -fx-font-size: 10; -fx-wrap-text: true; }
+.chart { -fx-padding: 0; }
+.chart-plot-background { -fx-background-color: transparent; }
+.chart-horizontal-grid-lines { -fx-stroke: #e7eef0; }
+.chart-vertical-grid-lines { -fx-stroke: transparent; }
+.chart-series-line { -fx-stroke: #179b90; -fx-stroke-width: 2.5; }
+.axis { -fx-tick-label-fill: #8a9ba3; -fx-tick-label-font-size: 9; }
+.axis-label { -fx-text-fill: #8a9ba3; -fx-font-size: 11; }
+.field-label { -fx-font-size: 12; -fx-text-fill: #6b8189; }
+.result-card { -fx-background-color: linear-gradient(to right, #173b47, #23626a); -fx-background-radius: 10; }
+.result-caption { -fx-text-fill: #a7d3d0; -fx-font-size: 10; -fx-font-weight: bold; }
+.conversion-result { -fx-text-fill: white; -fx-font-size: 38; -fx-font-weight: bold; }
+.result-detail { -fx-text-fill: #b1d7d7; -fx-font-size: 13; }
+.swap-button { -fx-background-color: #e4f1ee; -fx-background-radius: 9; -fx-text-fill: #17786e; -fx-font-size: 21; -fx-padding: 5 16; }
+.error { -fx-text-fill: #bd4c4c; -fx-font-size: 11; }
+.table-view { -fx-background-color: white; -fx-border-color: #e5ecee; -fx-border-radius: 6; -fx-background-radius: 6; }
+.table-view .column-header-background, .table-view .column-header { -fx-background-color: #f1f6f7; }
+.table-view .column-header .label { -fx-text-fill: #5e7a83; -fx-alignment: center-left; -fx-padding: 11; -fx-font-size: 11; }
+.table-row-cell { -fx-background-color: white; -fx-cell-size: 38; }
+.table-row-cell:odd { -fx-background-color: #f8fbfc; }
+.table-row-cell:selected { -fx-background-color: #e1f2ef; }
+.table-cell { -fx-text-fill: #375662; -fx-padding: 10 14; -fx-border-color: transparent; -fx-font-size: 12; }
+.table-view .filler { -fx-background-color: #f1f6f7; }
+.progress-indicator { -fx-progress-color: #198d83; }
+.scroll-bar:vertical, .scroll-bar:horizontal { -fx-background-color: transparent; }
+.scroll-bar .thumb { -fx-background-color: #cedbde; -fx-background-radius: 5; }

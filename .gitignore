@@ -1,0 +1,21 @@
+# Pliki wynikowe i narzędzia pobierane przez run.cmd
+/target/
+/.tools/
+
+# Lokalne ustawienia IDE
+/.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Lokalne dane i logi
+.env
+.env.*
+!.env.example
+*.log
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+Desktop.ini
